@@ -64,6 +64,13 @@ li{
 .navbar__menu li a{
     transition: .3s
 }
+.navbar__menu li{
+    transition: .3s;
+}
+.navbar__menu li:hover{
+    cursor: pointer;
+    opacity: .7;
+}
 .navbar__menu li a:hover{
     opacity: .7;
 }
@@ -248,7 +255,8 @@ li{
 }
 .feature__text:hover{
     cursor: pointer;
-    filter: brightness(3);
+    filter: brightness(1.5);
+    text-decoration: underline;
 }
 
 
