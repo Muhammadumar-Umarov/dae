@@ -8,9 +8,6 @@
 :root{
     --txt-color: #B45F4D;
 }
-body{
-    height: 600vh;
-}
 
 /* GLOBAL CSS  */
 .container{
